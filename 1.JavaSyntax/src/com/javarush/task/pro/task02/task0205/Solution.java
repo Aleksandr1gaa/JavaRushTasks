@@ -8,19 +8,16 @@ public class Solution {
 
     public static void main(String[] args) {
         int toothCounter = 32;
-        toothCounter--;
-        toothCounter--;
-        toothCounter--;
-        toothCounter--;
-        toothCounter--;
-        toothCounter--;
-        toothCounter--;
-        toothCounter--;
-        toothCounter--;
 
-
-        //напишите тут ваш код
-
+        toothCounter--;
+        toothCounter--;
+        toothCounter--;
+        toothCounter--;
+        toothCounter--;
+        toothCounter--;
+        toothCounter--;
+        toothCounter--;
+        toothCounter--;
 
         System.out.println(toothCounter);
     }
