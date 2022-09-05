@@ -11,13 +11,10 @@ public class Solution {
         String cold = "на улице холодно";
         String warm = "на улице тепло";
         Scanner temperature = new Scanner(System.in);
-                int a = temperature.nextInt();
-        if (a < 0)
-        {
+        int a = temperature.nextInt();
+        if (a < 0) {
             System.out.println(cold);
-        }
-        else
-        {
+        } else {
             System.out.println(warm);
         }
     }
