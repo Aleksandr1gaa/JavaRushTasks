@@ -15,8 +15,6 @@ public class Solution {
         int a = traingl.nextInt();
         int b = traingl.nextInt();
         int c = traingl.nextInt();
-        TRIANGLE_EXISTS = "треугольник существует";
-        TRIANGLE_NOT_EXISTS = "треугольник не существует";
 
         if (a < (b + c) && b < (a + c) && c < (a + b)) {
             System.out.print(TRIANGLE_EXISTS);
