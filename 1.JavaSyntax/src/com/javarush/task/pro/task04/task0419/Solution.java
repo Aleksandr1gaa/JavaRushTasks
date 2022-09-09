@@ -11,14 +11,24 @@ public class Solution {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         int sum = 0;
-        while (scanner.hasNextInt()) ;
-        {
-            int a = scanner.nextInt();
-            sum++;
-            sum = sum + a;
-            System.out.println(sum);
+        if (number > 0) {
+            int i =0;
+            while (i <= number) {
+                sum = sum + i;
+                i++;
+
+            }
         }
-
+        System.out.println(sum);
+        /*
+        i это счетчик (i = it is counter)
+        0+0
+        0+1
+        1+2
+        3+3
+        6+4
+        10+5
+        ==15
+         */
     }
-
 }
